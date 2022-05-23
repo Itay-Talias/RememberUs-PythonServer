@@ -10,7 +10,4 @@ def predict(image_path):
     pred_class,pred_idx,outputs = learn.predict(img)
     return pred_class.obj
 
-# path=Path('modelFile')
-# learn = load_learner(path)
-# path=Path('some_image.jpg')
-# print(predict(path))
+
